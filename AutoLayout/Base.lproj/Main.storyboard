@@ -21,15 +21,12 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZs-NI-HZY">
                                 <color key="backgroundColor" red="0.71089831910000001" green="0.70713695229999995" blue="0.71465968589999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Ufo-je-2jA"/>
-                                </constraints>
                                 <state key="normal" title="Load Game"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqT-uS-UrG">
                                 <color key="backgroundColor" red="0.71089831910000001" green="0.70713695229999995" blue="0.71465968589999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="qDV-Iy-SOs"/>
+                                    <constraint firstAttribute="height" constant="93" id="qDV-Iy-SOs"/>
                                 </constraints>
                                 <state key="normal" title="New Game"/>
                                 <connections>
@@ -38,9 +35,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfQ-u2-heD">
                                 <color key="backgroundColor" red="0.71089831910000001" green="0.70713695229999995" blue="0.71465968589999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="V8p-71-fWt"/>
-                                </constraints>
                                 <state key="normal" title="Help"/>
                             </button>
                         </subviews>
@@ -48,6 +42,7 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="sZs-NI-HZY" secondAttribute="trailing" id="5Fr-Iy-FwV"/>
                             <constraint firstItem="sZs-NI-HZY" firstAttribute="top" secondItem="yqT-uS-UrG" secondAttribute="bottom" constant="8" id="84D-CH-YKn"/>
+                            <constraint firstItem="yqT-uS-UrG" firstAttribute="height" secondItem="sZs-NI-HZY" secondAttribute="height" id="FBO-cx-rb3"/>
                             <constraint firstItem="sZs-NI-HZY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rn7-nd-VSK"/>
                             <constraint firstItem="FfQ-u2-heD" firstAttribute="top" secondItem="sZs-NI-HZY" secondAttribute="bottom" constant="8" id="V9c-Cm-KuV"/>
                             <constraint firstAttribute="leadingMargin" secondItem="sZs-NI-HZY" secondAttribute="leading" id="XGD-6K-aO1"/>
@@ -55,6 +50,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="FfQ-u2-heD" secondAttribute="trailing" id="eeH-kq-UnG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yqT-uS-UrG" secondAttribute="trailing" id="iTC-nP-v1k"/>
                             <constraint firstAttribute="leadingMargin" secondItem="FfQ-u2-heD" secondAttribute="leading" id="vn0-kn-smG"/>
+                            <constraint firstItem="yqT-uS-UrG" firstAttribute="height" secondItem="FfQ-u2-heD" secondAttribute="height" id="y4C-V4-22g"/>
                         </constraints>
                     </view>
                 </viewController>
